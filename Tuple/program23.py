@@ -1,0 +1,11 @@
+
+prices = (120, 250, 85, 340, 175, 90, 410, 60)
+print("Item Prices:", prices)
+total_bill    = sum(prices)
+avg_price     = total_bill / len(prices)
+highest_price = max(prices)
+lowest_price  = min(prices)
+print(f"\nTotal Bill     : {total_bill}")
+print(f"Average Price  : {avg_price:.2f}")
+print(f"Highest Price  : {highest_price}")
+print(f"Lowest Price   : {lowest_price}")

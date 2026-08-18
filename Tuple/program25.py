@@ -1,0 +1,6 @@
+runs = (45, 78, 23, 112, 56, 89, 34, 67, 101, 48)
+print("Runs per match:", runs)
+print(f"\nTotal Runs   : {sum(runs)}")
+print(f"Highest Score: {max(runs)}")
+print(f"Lowest Score : {min(runs)}")
+print(f"Average Score: {sum(runs) / len(runs):.2f}")

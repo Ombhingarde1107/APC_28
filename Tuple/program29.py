@@ -1,0 +1,6 @@
+unsorted = (5, 3, 8, 1, 9, 2, 7, 4, 6)
+print("Original   :", unsorted)
+asc_tuple  = tuple(sorted(unsorted))
+desc_tuple = tuple(sorted(unsorted, reverse=True))
+print("Ascending  :", asc_tuple)
+print("Descending :", desc_tuple)
